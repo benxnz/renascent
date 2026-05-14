@@ -163,6 +163,7 @@ font-family: 'Bebas Neue', sans-serif;
   width: 100%;
   max-width: 300px;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .hover-box img {
