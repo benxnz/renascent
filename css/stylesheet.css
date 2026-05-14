@@ -11,8 +11,8 @@ h1 {
 
 
 .menu {
-    background-color: #000;
-    padding: 15px 0;
+    background-color: #ffffff;
+    padding: 25px 0;
     font-family: 'Bebas Neue', sans-serif;
 }
 
@@ -29,11 +29,11 @@ h1 {
 }
 
 .menu a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.2rem;
+    color: black;
+    font-size: 0.9rem;
     letter-spacing: 2px;
     transition: 0.3s;
+    text-decoration: underline;
 }
 
 
@@ -52,7 +52,7 @@ caption {
 color: black;
   font-family: 'Bebas Neue', sans-serif;
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 td {
@@ -77,4 +77,82 @@ color: black;
   font-family: 'Bebas Neue', sans-serif;
   text-align: center;
   font-size: 40px;
+}
+
+#renascent {
+  width: 220px;
+  height: 70px;
+}
+
+#fimdapag {
+color: black;
+  font-family: 'Bebas Neue', sans-serif;
+  text-align: center;
+  font-size: 10px;
+}
+
+#fim {
+  width:80px;
+  height: 50px;
+  align: center;
+}
+
+#renasce {
+  width: 1340px;
+  height: 500px;
+}
+
+#cartao {
+  width: 20px;
+  height: 20px;
+}
+
+#caminhao {
+  width: 30px;
+  height:30 px;
+}
+
+.cartao {
+  text-align: left;
+  gap: 500px;
+  font-size: 20px;
+   display: flex;
+  color: black;
+  font-family: 'Bebas Neue', sans-serif;
+
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#setinha {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 10px;
+}
+
+#preço {
+font-family: 'Bebas Neue', sans-serif;
+  font-size: 15px;
+  font-weight: 100;
+  text-align: center;
+}
+
+#mad1 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 25px;
+  font-weight: 100;
+  text-align: center;
+  color: grey;
 }
