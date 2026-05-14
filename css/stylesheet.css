@@ -192,3 +192,34 @@ font-family: 'Bebas Neue', sans-serif;
 .hover-box:hover .img-normal {
   opacity: 0;
 }
+
+#swag {
+  width: 1340px;
+  height: 500px;
+}
+
+#titulo {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  text-align: center;
+  color: black;
+}
+
+#telefone {
+  width: 200px;
+  height: 200px;
+}
+
+#titulo2 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  color: black;
+}
+
+#bobo {
+  width: 90px;
+  height: 90px;
+}
