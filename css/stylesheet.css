@@ -156,3 +156,38 @@ font-family: 'Bebas Neue', sans-serif;
   text-align: center;
   color: grey;
 }
+
+
+.hover-box {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  overflow: hidden;
+}
+
+.hover-box img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.img-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.img-normal {
+  transition: opacity 0.3s ease;
+}
+
+.hover-box:hover .img-hover {
+  opacity: 1;
+}
+
+.hover-box:hover .img-normal {
+  opacity: 0;
+}
